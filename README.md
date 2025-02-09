@@ -1,6 +1,6 @@
-# Mifos X Web App ![build](https://github.com/openMF/web-app/actions/workflows/build.yml/badge.svg) [Slack](https://app.slack.com/client/T0F5GHE8Y/CJJGJLN10)
+# Carro Fineract Web App ![build](https://github.com/openMF/web-app/actions/workflows/build.yml/badge.svg) [Slack](https://app.slack.com/client/T0F5GHE8Y/CJJGJLN10)
 
-Mifos X Web App is the revamped version of the Mifos X Community App, an effective financial inclusion solution and the default web application built on top of the Mifos X platform for the Mifos User Community.
+Carro Fineract Web App is Carro implementation of Mifos X Web App which is the front end for Carro Fineract, a fork of the Apache Fineract open source project providing the foundation for Carro regional hire purchase management system
 
 It is a Single-Page App (SPA) written in standard web technologies [HTML5](http://whatwg.org/html), [SCSS](http://sass-lang.com) and [TypeScript](http://www.typescriptlang.org). It leverages the popular [Angular](https://angular.io/) framework and [Angular Material](https://material.angular.io/) for material design components.
 
@@ -99,21 +99,21 @@ Access the webapp on http://localhost:4200 in your browser.
 
 ### Docker compose
 
-It is possible to do a 'one-touch' installation of Mifos X Web App using containers (AKA "Docker").
+It is possible to do a 'one-touch' installation of Carro Fineract Web App using containers (AKA "Docker").
 Fineract now packs the Mifos community-app web UI in it's docker deploy.
 
 As Prerequisites, you must have `docker` and Docker Compose v2 or later installed on your machine; see
 [Docker Install](https://docs.docker.com/install/) and
 [Docker Compose Install](https://docs.docker.com/compose/install/).
 
-Now to run a new MifosX Web App instance you can simply:
+Now to run a new Carro Fineract Web App instance you can simply:
 
 1. `git clone https://github.com/openMF/web-app.git ; cd web-app`
 1. for windows, use `git clone https://github.com/openMF/web-app.git --config core.autocrlf=input ; cd web-app`
 1. `docker compose up -d`
 1. Access the webapp on http://localhost:4200 in your browser.
 
-You can also setup different configurations for the MifosX Web App using environment variables:
+You can also setup different configurations for the Carro Fineract Web App using environment variables:
 
 1. Use environment variables (best choice if you run with Docker Compose):
 
